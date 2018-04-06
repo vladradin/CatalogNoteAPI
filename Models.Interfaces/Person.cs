@@ -2,7 +2,8 @@
 
 namespace Models.Interfaces
 {
-    public class Class1
+    public class Person
     {
+
     }
 }
