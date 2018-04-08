@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Models.Interfaces\Models.Interfaces.csproj" />
+    <ProjectReference Include="..\Repository.Interfaces\Repository.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
