@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CatalogNoteAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class TeacherController : Controller
     {
         // GET api/values
         [HttpGet]
