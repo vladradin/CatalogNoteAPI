@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class LetterGrade : Grade
+    public class Semester
     {
-        public char Mark { get; set; }
+        public byte Number { get; set; }
+        public ushort Year { get; set; } 
     }
 }

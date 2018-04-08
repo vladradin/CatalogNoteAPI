@@ -6,5 +6,6 @@ namespace Models.Interfaces
 {
     class NumericGrade : Grade
     {
+        public decimal Mark { get; set; }
     }
 }

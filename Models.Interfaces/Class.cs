@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class Class
+    public class Class
     {
+        public ClassID ClassId { get; set; }
+        public Teacher Supervisor { get; set; }
+        public IEnumerable<Student> Students { get; set; }
     }
 }

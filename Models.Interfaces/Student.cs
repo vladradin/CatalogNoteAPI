@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class Student
+    public class Student : Person
     {
     }
 }

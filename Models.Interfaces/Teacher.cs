@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class Teacher
+    public class Teacher : Person
     {
+        public IEnumerable<Course> TeachCourses { get; set; }
+        public Class SupervisedClass { get; set; }
     }
 }

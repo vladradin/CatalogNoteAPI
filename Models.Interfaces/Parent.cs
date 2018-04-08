@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class LetterGrade : Grade
+    public class Parent : Person
     {
-        public char Mark { get; set; }
+        public IEnumerable<Student> Kids { get; set; }
     }
 }

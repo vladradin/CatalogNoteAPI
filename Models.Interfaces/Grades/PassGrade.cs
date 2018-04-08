@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class PassGrade : Grade
+    public class PassGrade : Grade
     {
+        public bool Passed { get; set; }
     }
 }

@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Models.Interfaces
 {
-    class LetterGrade : Grade
+    class Gradebook
     {
-        public char Mark { get; set; }
     }
 }
